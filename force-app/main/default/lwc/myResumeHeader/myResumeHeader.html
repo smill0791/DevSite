@@ -19,7 +19,7 @@
                     <li class="slds-var-m-bottom_small">
                         <a href={phoneLink} class="link">
                             <lightning-icon icon-name="utility:dialing" alternative-text="dialing" size="small" title="dialing" class="slds-var-m-right_small"></lightning-icon>
-                            {userDetails.PHONE} <!-- Fix: Use PHONE instead of EMAIL -->
+                            {userDetails.PHONE}
                         </a>
                     </li>
                 </ul>
@@ -28,7 +28,8 @@
                 <ul class="small_font">
                     <template for:each={socialDetails} for:item="item">
                         <li class="slds-var-m-bottom_small" key={item.type}>
-                            <a href={item.link} target="_blank" class="link">
+                            <a href={item.link} target="_blank" class="link" onclick={handleLinkClick}>
+                            <!-- <a href={item.link} target="_blank" class="link"> -->
                                 <img src={item.icon} alt={item.type} width="20px" class="slds-var-m-right_small" />
                                 <span>{item.label}</span>
                             </a>

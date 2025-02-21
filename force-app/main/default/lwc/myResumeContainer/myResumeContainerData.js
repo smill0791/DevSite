@@ -6,21 +6,21 @@ export const PROFILE_IMAGE = HEADSHOT;
 export const SOCIAL_LINKS = [
     {
         type: 'linkedin',
-        label: "linkedin/SampsonMiller",
+        label: "LinkedIn",
         link: "https://www.linkedin.com/in/sampson-miller-72087a17a/",
-        icon: SOCIAL + '/SocialIcons/linkedin_icon.png'
+        icon: SOCIAL + '/linkedin_icon.png'
     },
     {
         type: 'github',
-        label: "github/smill0791",
+        label: "Github",
         link: "https://github.com/smill0791",
-        icon: SOCIAL + '/SocialIcons/github-logo.png'
+        icon: SOCIAL + '/github-logo.png'
     },
     {
         type: 'trailhead',
-        label: "trailhead/SampsonMiller",
+        label: "Trailhead",
         link: "https://www.salesforce.com/trailblazer/smiller82",
-        icon: SOCIAL + '/SocialIcons/trailhead-svgrepo-com.png'
+        icon: SOCIAL + '/trailhead-svgrepo-com.png'
     }
 ];
 
