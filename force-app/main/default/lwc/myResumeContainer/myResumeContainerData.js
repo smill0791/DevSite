@@ -34,10 +34,29 @@ export const USER_DETAILS = {
 export const CAREER_SUMMARY={
     HEADING:"CAREER SUMMARY",
     DESCRIPTION:"Paragraph of career summary goes here yada yada yada yadayada yadayada yadayada yadayada yadayada yadayada yadayada yadayada yadayada yadayada yadayada yadayada yadayada yadayada yadayada yadayada yadayada yadayada yadayada yadayada yadayada yada........",
-    KEY_POINTS:[
-        "If you want a summary it goes here",
-        "Key Point 1",
-        "Key Point 2",
-        "Key Point 3",
+}
+
+export const EXPERIENCE_DATA={
+    HEADING:'Work Experience',
+    EXPERIENCES:[
+        {
+            ROLE:"Salesforce Developer",
+            COMPANY_NAME:"Guild",
+            DURATION:"1 year 9 months",
+            DESCRIPTION:"Job description goes here",
+            DESCRIPTION_POINTS:[
+                "Point 1 goes here",
+                "Point 2 goes here",
+                "Point 3 goes here",
+            ],
+            TECHNOLOGIES_USED:{
+                HEADING:'Technologies used',
+                LIST:[
+                    "Apex",
+                    "Javascript",
+                    "LWC",
+                ]
+            }
+        }
     ]
 }
