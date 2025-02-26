@@ -175,7 +175,18 @@ export const SKILLS_DATA={
                 { NAME :"CUSTOM FLOWS", LEVEL: "85" },
             ]
         }
-    ]
+    ],
+    OTHER_SKILLS:{
+        HEADING: 'OTHERS',
+        SKILLS_LIST: [
+            "Git",
+            "Jira",
+            "Miro",
+            'Unit Testing',
+            "Jest",
+            "Confluence"
+        ]
+    }
 }
 
 export const INTERESTS_DATA={
