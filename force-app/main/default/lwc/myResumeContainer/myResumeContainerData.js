@@ -133,11 +133,52 @@ export const EDUCATION_DATA={
         {
             NAME: "Bachelor of Science in Math and Computer Science",
             UNIVERSITY_NAME: "Colorado School of Mines",
-            GRADUATION_DATE: "December 2014"
+            GRADUATION_DATE: "Graduated December 2014"
         }
     ]
 }
 
-// export const CERTIFICATION_DATA={
-//     ICON
-// }
+export const CERTIFICATION_DATA={
+    // ICON: SOCIAL_ICONS + 'SocialIcons/linktocerticon' // Update link once static resource is added
+    HEADING: "CERTIFICATIONS",
+    LIST: [
+        {
+            NAME: "Salesforce Platform Developer I"
+        }
+    ]
+}
+
+export const SKILLS_DATA={
+    HEADING: "SKILLS & TOOLS",
+    SKILLS:[
+        {
+            HEADING: "FRONTEND",
+            SKILLS_LIST: [
+                { NAME :"Javascript(ES5/ES6/ES7/ES8)", LEVEL: "85" },
+                { NAME :"HTML5/CSS3/SASS/LESS", LEVEL: "90" },
+                { NAME :"Angular", LEVEL: "75" },
+
+            ]
+        },
+        {
+            HEADING: "BACKEND",
+            SKILLS_LIST: [
+                { NAME :"Python", LEVEL: "80" },
+                { NAME :"SOQL", LEVEL: "90" },
+                { NAME :"SQL", LEVEL: "80" },
+            ]
+        },
+        {
+            HEADING: "SALESFORCE",
+            SKILLS_LIST: [
+                { NAME :"LWC", LEVEL: "90" },
+                { NAME :"CUSTOM FLOWS", LEVEL: "85" },
+            ]
+        }
+    ]
+}
+
+export const INTERESTS_DATA={
+    HEADING: "Interests",
+    LIST: ["Reading", "Music Production", "Guitar", "Brazilian Jiu Jitsu"]
+}

@@ -1,5 +1,5 @@
 import { LightningElement } from 'lwc';
-import { USER_DETAILS, SOCIAL_LINKS, PROFILE_IMAGE, CAREER_SUMMARY, EXPERIENCE_DATA, EDUCATION_DATA } from './myResumeContainerData';
+import { USER_DETAILS, SOCIAL_LINKS, PROFILE_IMAGE, CAREER_SUMMARY, EXPERIENCE_DATA, EDUCATION_DATA, CERTIFICATION_DATA, SKILLS_DATA, INTERESTS_DATA } from './myResumeContainerData';
 
 export default class MyResumeContainer extends LightningElement {
     // Assign the imported value to a property
@@ -9,4 +9,7 @@ export default class MyResumeContainer extends LightningElement {
     CAREER_SUMMARY = CAREER_SUMMARY;
     EXPERIENCE_DATA = EXPERIENCE_DATA;
     EDUCATION_DATA = EDUCATION_DATA;
+    CERTIFICATION_DATA = CERTIFICATION_DATA;
+    SKILLS_DATA = SKILLS_DATA;
+    INTERESTS_DATA = INTERESTS_DATA;
 }

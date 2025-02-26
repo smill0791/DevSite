@@ -7,7 +7,9 @@
                     <li key={list.NAME} class="slds-var-m-bottom_medium">
                         <div class="slds-grid">
                             <template if:true={details.ICON}>
-                                <img src={details.ICON} alt="icon" width="20px" class="slds-var-m-right_xx-small" />
+                                <div class="flex flex-column items-center">
+                                    <img src={details.ICON} alt="icon" width="20px" class="slds-var-m-right_xx-small" />
+                                </div>
                             </template>
                             <div class="fontWeight700 font14">{list.NAME}</div>
                         </div>
@@ -16,6 +18,9 @@
                         </template>
                         <template if:true={list.GRADUATION_DATE}>
                             <div class="subText">{list.GRADUATION_DATE}</div>
+                        </template>
+                        <template if:true={list.DESCRIPTION}>
+                            <div class="subText">{list.DESCRIPTION}</div>
                         </template>
                     </li>
                 </template>
