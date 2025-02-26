@@ -1,5 +1,5 @@
 import HEADSHOT from '@salesforce/resourceUrl/Headshot';
-import SOCIAL from '@salesforce/resourceUrl/Social';
+import SOCIAL_ICONS from '@salesforce/resourceUrl/SOCIAL';
 
 export const PROFILE_IMAGE = HEADSHOT;
 
@@ -8,19 +8,19 @@ export const SOCIAL_LINKS = [
         type: 'linkedin',
         label: "LinkedIn",
         link: "https://www.linkedin.com/in/sampson-miller-72087a17a/",
-        icon: SOCIAL + '/linkedin_icon.png'
+        icon: SOCIAL_ICONS + '/SocialIcons/linkedin_icon.png'
     },
     {
         type: 'github',
         label: "Github",
         link: "https://github.com/smill0791",
-        icon: SOCIAL + '/github-logo.png'
+        icon: SOCIAL_ICONS + '/SocialIcons/github-logo.png'
     },
     {
         type: 'trailhead',
         label: "Trailhead",
         link: "https://www.salesforce.com/trailblazer/smiller82",
-        icon: SOCIAL + '/trailhead-svgrepo-com.png'
+        icon: SOCIAL_ICONS + '/SocialIcons/trailhead-svgrepo-com.png'
     }
 ];
 
@@ -125,3 +125,19 @@ export const EXPERIENCE_DATA={
         }
     ]
 }
+
+export const EDUCATION_DATA={
+    ICON: SOCIAL_ICONS + '/SocialIcons/education_hat.png',
+    HEADING: "EDUCATION",
+    LIST:[
+        {
+            NAME: "Bachelor of Science in Math and Computer Science",
+            UNIVERSITY_NAME: "Colorado School of Mines",
+            GRADUATION_DATE: "December 2014"
+        }
+    ]
+}
+
+// export const CERTIFICATION_DATA={
+//     ICON
+// }
