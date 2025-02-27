@@ -7,15 +7,17 @@
                     <li key={list.NAME} class="slds-var-m-bottom_medium">
                         <div class="slds-grid">
                             <template if:true={details.ICON}>
-                                <div class="flex flex-column items-center">
+                                <div class="slds-p-vertical_x-small slds-grid slds-grid_vertical-align-center">
                                     <img src={details.ICON} alt="icon" width="20px" class="slds-var-m-right_xx-small" />
                                 </div>
                             </template>
                             <div class="fontWeight700 font14">{list.NAME}</div>
                         </div>
-                        <template if:true={list.UNIVERSITY_NAME}>
-                            <div class="uni_name">{list.UNIVERSITY_NAME}</div>
-                        </template>
+                        <div class="slds-p-horizontal_medium">
+                            <template if:true={list.UNIVERSITY_NAME}>
+                                <div class="uni_name">{list.UNIVERSITY_NAME}</div>
+                            </template>
+                        </div>
                         <template if:true={list.GRADUATION_DATE}>
                             <div class="subText">{list.GRADUATION_DATE}</div>
                         </template>

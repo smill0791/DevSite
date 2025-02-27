@@ -33,7 +33,7 @@ export const USER_DETAILS = {
 
 export const CAREER_SUMMARY={
     HEADING:"CAREER SUMMARY",
-    DESCRIPTION:"Paragraph of career summary goes here yada yada yada yadayada yadayada yadayada yadayada yadayada yadayada yadayada yadayada yadayada yadayada yadayada yadayada yadayada yadayada yadayada yadayada yadayada yadayada yadayada yadayada yadayada yada........",
+    DESCRIPTION:"I have worked for over 10 years in the Salesforce ecosystem in a variety of industrries including fiber cable, healthcare, education and consulting. This breadth of experience has given me valuable insight into how a company can effectively apply Salesforce within their business. Working with both legacy and new implimentations of Salesforce orgs has given me valuable insight into best practices for maintaining a healthy codebase and system architecture.",
 }
 
 export const EXPERIENCE_DATA={
@@ -43,7 +43,7 @@ export const EXPERIENCE_DATA={
             ROLE:"Salesforce Developer",
             COMPANY_NAME:"Guild",
             DURATION:"September 2022 - May 2024",
-            DESCRIPTION:"Worked on Development team to enhance coach user experience and Salesfroce student intake workflow.",
+            DESCRIPTION:"Worked on Development team to enhance the student coach user experience and Salesfroce intake workflow.",
             DESCRIPTION_POINTS:[
                 "Worked with Event Bus pipeline managing data between AWS and Salesforce",
                 "Used and updated github packaging model for daily deployments to Salesforce",
@@ -63,7 +63,7 @@ export const EXPERIENCE_DATA={
             ROLE:"Salesforce Developer",
             COMPANY_NAME:"Virta Health",
             DURATION:"March 2021 - April 2022",
-            DESCRIPTION:"Job description goes here",
+            DESCRIPTION:"Worked in Salesforce to help team's patient intake and care models.",
             DESCRIPTION_POINTS:[
                 "Updated Google Cloud Pubsub to Salesforce subscription model to increase data efficiency",
                 "Optimized lightning components in Salesforce for our patient admin team",
@@ -75,15 +75,16 @@ export const EXPERIENCE_DATA={
                 LIST:[
                     "Apex",
                     "Javascript",
-                    "LWC",
+                    "Docker",
+                    "Kubernetes"
                 ]
             }
         },
         {
             ROLE:"Salesforce Consultant",
             COMPANY_NAME:"Slalom Consulting",
-            DURATION:"March 2021 - April 2022",
-            DESCRIPTION:"Job description goes here",
+            DURATION:"June 2019 - September 2020",
+            DESCRIPTION:"Worked on several client projects across different fields to enhance and optimize Salesforce processes.",
             DESCRIPTION_POINTS:[
                 "Managed client facing experience in administrative and development roles",
                 "Directed Salesforce projects though execution of consulting approach and onsite visits",
@@ -97,7 +98,6 @@ export const EXPERIENCE_DATA={
                 HEADING:'Technologies used',
                 LIST:[
                     "Apex",
-                    "Javascript",
                     "LWC",
                 ]
             }
@@ -105,8 +105,8 @@ export const EXPERIENCE_DATA={
         {
             ROLE:"Salesforce Application Developer",
             COMPANY_NAME:"Zayo Group",
-            DURATION:"March 2021 - April 2022",
-            DESCRIPTION:"Job description goes here",
+            DURATION:"January 2015 - September 2018",
+            DESCRIPTION:"Worked under Salesforce umbrella of business to enhance efficiency of teams day to day work. Worked with fiber sales team to build custom Salesforce workflows.",
             DESCRIPTION_POINTS:[
                 "Managed user roles and permissions for different custom objects and record types",
                 "Developed and maintained internal and external Salesforce scalable applications",
@@ -118,8 +118,8 @@ export const EXPERIENCE_DATA={
                 HEADING:'Technologies used',
                 LIST:[
                     "Apex",
-                    "Javascript",
-                    "LWC",
+                    "Angular",
+                    "Visualforce",
                 ]
             }
         }
