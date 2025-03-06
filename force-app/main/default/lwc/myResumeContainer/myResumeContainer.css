@@ -2,6 +2,8 @@
     box-shadow: 0 1rem 3rem rgba(0, 0, 0, 0.175);
  }
  .header_color{
-     background: White;
+     /* background: White; */
      color: #7081b9;
- }
+    /* 88acda */
+     background-image: radial-gradient( circle farthest-corner at 22.4% 21.7%, #6c97c7, white 100.2% );
+}

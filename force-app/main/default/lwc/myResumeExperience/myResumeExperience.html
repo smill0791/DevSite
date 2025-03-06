@@ -15,6 +15,7 @@
                                 </template>
                             </ul>
                             <h4>{item.TECHNOLOGIES_USED.HEADING}</h4>
+                            <div style="height:5px;font-size:1px;">&nbsp;</div>
                             <template for:each={item.TECHNOLOGIES_USED.LIST} for:item="tech">
                                 <div key={tech} class="tech_tile">{tech}</div>
                             </template>

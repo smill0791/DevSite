@@ -33,7 +33,7 @@ export const USER_DETAILS = {
 
 export const CAREER_SUMMARY={
     HEADING:"CAREER SUMMARY",
-    DESCRIPTION:"I have worked for over 10 years in the Salesforce ecosystem in a variety of industrries including fiber cable, healthcare, education and consulting. This breadth of experience has given me valuable insight into how a company can effectively apply Salesforce within their business. Working with both legacy and new implimentations of Salesforce orgs has given me valuable insight into best practices for maintaining a healthy codebase and system architecture.",
+    DESCRIPTION:"I have worked for over 10 years in the Salesforce ecosystem in a variety of industries including fiber cable, healthcare, education and consulting. This breadth of experience has given me valuable insight into how a company can effectively apply Salesforce for their business needs. Working with both legacy and new implementations of Salesforce orgs has given me valuable insight into best practices for maintaining a healthy codebase and system architecture.",
 }
 
 export const EXPERIENCE_DATA={
@@ -46,7 +46,9 @@ export const EXPERIENCE_DATA={
             DESCRIPTION:"Worked on Development team to enhance the student coach user experience and Salesfroce intake workflow.",
             DESCRIPTION_POINTS:[
                 "Worked with Event Bus pipeline managing data between AWS and Salesforce",
-                "Used and updated github packaging model for daily deployments to Salesforce",
+                "Used unlocked packaging model with github for daily deployments to Salesforce",
+                "Worked with packaging model to seperate aspects of codebase for smoother deployments",
+                "Created and updated event consumers which processed data from AWS",
                 "Wrote tests in jest framework for frontend LWC testing",
                 "Created omni channel configurations to route work evenly to coaching team"
             ],
@@ -56,6 +58,8 @@ export const EXPERIENCE_DATA={
                     "Apex",
                     "Javascript",
                     "LWC",
+                    "Jest",
+                    "Unlocked Packages",
                 ]
             }
         },
@@ -99,6 +103,8 @@ export const EXPERIENCE_DATA={
                 LIST:[
                     "Apex",
                     "LWC",
+                    "Jenkins",
+                    "Custom Flows"
                 ]
             }
         },
@@ -120,6 +126,7 @@ export const EXPERIENCE_DATA={
                     "Apex",
                     "Angular",
                     "Visualforce",
+                    "Unit testing"
                 ]
             }
         }

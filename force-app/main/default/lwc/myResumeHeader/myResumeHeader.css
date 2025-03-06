@@ -13,7 +13,7 @@
 }
 
 .nameHeading{
-    color: #6c7a9c;
+    color: #222222;
     font-size: 2.25rem;
     font-weight: 400;
     text-transform: uppercase;
@@ -23,7 +23,11 @@
 .roleHeading{
     font-size: 1.5rem;
     margin-bottom: 0.75rem;
-    color: #7081b9;
+    color: #3b3b3b;
+}
+
+.slds-var-m-right_small{
+  --sds-c-icon-color-foreground-default: #222222;
 }
 
 @media only screen and (max-width: 600px) {
