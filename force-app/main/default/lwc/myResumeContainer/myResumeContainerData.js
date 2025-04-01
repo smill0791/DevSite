@@ -150,7 +150,7 @@ export const CERTIFICATION_DATA={
     HEADING: "CERTIFICATIONS",
     LIST: [
         {
-            NAME: "Salesforce Platform Developer I"
+            NAME: "Salesforce Certified Platform Developer I"
         }
     ]
 }
